@@ -1,6 +1,6 @@
 (function() {
     //application. Will be using Angular Material and Routing.
-    var app = angular.module('myApp', ['ngMaterial','ngRoute']);
+    var app = angular.module('myApp', ['ngMaterial','ngRoute','ngTouch']);
     //controller for form and list
     app.controller('AppCtrl', function($scope){
 
